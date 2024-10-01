@@ -71,7 +71,7 @@ const renderPeopleList = (people) => {
             
             personInfo.innerHTML = `
            <h2 class="text-2xl font-bold mb-2"> ${person.name} </h2>
-           <p>Number: ${person?.username || "N/A"} </p>
+           <p>User Name: ${person?.username || "N/A"} </p>
            <p>Phone: ${person?.phone || "N/A"} </p>
            <p>Website: ${person?.website || "N/A"} </p>
            <p>Email: ${person?.email || "N/A"} </p>
